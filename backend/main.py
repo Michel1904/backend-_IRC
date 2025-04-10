@@ -14,7 +14,6 @@ scaler = joblib.load("scaler.pkl")
 class PatientData(BaseModel):
     age: int
     motif_asthenie: int
-
     motif_alt_fonction: int
     motif_hta: int
     motif_oedeme: int
